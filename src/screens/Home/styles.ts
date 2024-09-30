@@ -2,26 +2,26 @@ import { StyleSheet } from "react-native"
 
 const styles = StyleSheet.create({
     container: {
-        backgroundColor: '#121014',
-        flex: 1,
         padding: 16,
         paddingTop: 48,
+        flex: 1,
+        backgroundColor: '#121014',
     },
     title: {
+        marginBottom: 24, 
         fontSize: 24,
         fontWeight: 'bold',
         color: 'white',
-        marginBottom: 24, 
     },
     // Form
     storeForm: {
-        marginBottom: 24,
+        marginBottom: 36,
         flexDirection: 'row',
         gap: 8
     },
     storeTextInput: {
-        backgroundColor: '#1E1D23',
         padding: 8,
+        backgroundColor: '#1E1D23',
         color: 'white',
         borderRadius: 8,
         flex: 1,
@@ -35,14 +35,14 @@ const styles = StyleSheet.create({
         backgroundColor: '#31CE66',
     },
     storeButtonText: {
-        color: 'white',
+        fontSize: 16,
         fontWeight: 'bold',
-        fontSize: 16
+        color: 'white',
     },
     listEmptyText: {
-        color: 'white',
+        fontSize: 16,
         fontWeight: 'bold',
-        fontSize: 16
+        color: 'white',
     }
 })
 
